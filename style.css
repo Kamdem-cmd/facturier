@@ -1,0 +1,43 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    color: rgba(50, 50, 50, 0.9);
+}
+body{
+    justify-items: center;
+    padding-top: 30px;
+}
+table{
+    border-collapse: collapse;
+    justify-items: center;
+    justify-content: center;
+}
+th{
+    padding: 5px;
+}
+
+hr{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+#valider{
+    background-color: green;
+    color: azure;
+    border: solid green;
+    height: 30px;
+    width: 70px;
+    padding: 0;
+}
+#valider:hover{
+    background-color: azure;
+    border: solid green;
+    color: green;
+}
+input{
+    padding: 5px;
+    height: 30px;
+}
